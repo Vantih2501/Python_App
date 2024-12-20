@@ -7,7 +7,7 @@ pygame.init()
 # Constants
 SCREEN_WIDTH = 500
 SCREEN_HEIGHT = 800
-FPS = 60
+FPS = 90
 PRESENT_WIDTH = 50
 PRESENT_HEIGHT = 80
 CAR_WIDTH = 50
@@ -20,7 +20,7 @@ CAR_SPAWN_RATE = 50
 
 # Set up the screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Don't Touch My Present")
+pygame.display.set_caption("Car Game")
 
 # Load images
 def load_and_scale_image(path, size):
